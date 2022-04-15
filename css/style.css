@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://use.typekit.net/kal6lby.css");
+
+/*<<<< VARIABLES */
+
+:root {
+  /*<<< FONTS */
+  --ecd-ff-primary: "Montserrat", sans-serif;
+  --ecd-ff-secondary: "Noto Sans", sans-serif;
+  --ecd-ff-serif: "Noto Serif Display", serif;
+  --ecd-ff-logo: "al-fresco", sans-serif;
+
+  /*<<< LETTER SPACING */
+  --ecd-fs-spacing: 0.05rem;
+
+  /*<<< COLORS */
+  --ecd-clr-1: rgba(72, 50, 65, 1);
+  --ecd-clr-2: rgba(121, 85, 105, 1);
+  --ecd-clr-3: rgba(166, 128, 140, 1);
+  --ecd-clr-4: rgba(185, 156, 157, 1);
+  --ecd-clr-5: rgba(121, 85, 105, 0.461);
+  --ecd-clr-white: rgba(250, 250, 250, 1);
+
+  /*<<< SHADOWS */
+  --ecd-shdw-1: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --ecd-shdw-2: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --ecd-shdw-3: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+  /*<<< TRANSITIONS */
+  --ecd-transit-1: all 0.5s ease;
+  --ecd-transit-2: all 0.3s ease;
+}
+* {
+  font-family: var(--ecd-ff-secondary);
+}
+
+html {
+  transition: var(--ecd-transit-2);
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.containerBannerMsg {
+  background-color: var(--ecd-clr-2);
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+}
+
+.navbar {
+  box-shadow: var(--ecd-shdw-3);
+}
+
+.nav-link {
+  color: var(--ecd-clr-2);
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: var(--ecd-clr-3);
+  font-weight: 600;
+}
+
+.nav-item {
+  font-family: var(--ecd-ff-primary);
+  text-transform: uppercase;
+}
+
+.btn {
+  border-radius: 0;
+  color: var(--ecd-clr-2);
+}
+.btn:link {
+  border-radius: 0;
+  color: var(--ecd-clr-2);
+}
+.btn:visited {
+  border-radius: 0;
+  color: var(--ecd-clr-2);
+}
+.btn:hover {
+  border-radius: 0;
+  color: var(--ecd-clr-3);
+}
+.btn:active {
+  border-radius: 0;
+  color: var(--ecd-clr-3);
+}
+
+.form-control {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid var(--ecd-clr-2);
+}
+.form-control:link {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid var(--ecd-clr-2);
+  color: rgb(33, 37, 41);
+}
+.form-control:active {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid var(--ecd-clr-2);
+}
+.form-control:focus {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid var(--ecd-clr-2);
+}
+
+.form-control:focus,
+textarea:focus {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid var(--ecd-clr-2);
+}
+
+.carousel-inner {
+  box-shadow: var(--ecd-shdw-3);
+}
+.text-dark {
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  font-size: 2.5rem;
+  font-family: var(--ecd-ff-serif);
+}
+.txtPHero {
+  color: var(--ecd-clr-1);
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.borderContainer {
+  border-left: 1px solid black;
+}
+.heroTxt {
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  color: var(--ecd-clr-1);
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  background-color: var(--ecd-clr-5);
+}
+
+/*<<<------------ FOOTER --------------> */
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar {
+  padding: 0;
+}
+.footerContainer {
+  margin-top: 50px;
+  background-color: var(--ecd-clr-2);
+  padding: 1rem 0;
+  color: white;
+  /*   flex-direction: row;
+  flex-wrap: wrap; */
+}
+
+.map {
+  filter: grayscale(1);
+  margin-top: 4px;
+}
+
+.newsletterContainer p {
+  font-size: 0.8rem;
+}
+
+#newsletter {
+  width: 225px;
+  text-indent: 5px;
+  cursor: text;
+  padding: 1px;
+  border: 0;
+  font-weight: 300;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+#newsletter {
+  font-size: 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--ecd-clr-white);
+}
+
+#newsletter::placeholder {
+  color: var(--ecd-clr-white);
+  font-size: 0.9rem;
+  font-family: var(--ecd-ff-secondary);
+}
+
+#newsletter:focus {
+  color: var(--ecd-clr-white);
+}
+
+.formSubscribe img {
+  margin-top: 1rem;
+  height: 55px;
+}
+
+.Btn {
+  font-size: 0.9rem;
+  font-family: var(--ecd-ff-secondary);
+  background-color: rgba(250, 250, 250, 0.5);
+  color: var(--ecd-clr-2);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5rem;
+  border: 1.5px solid white;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Btn:hover {
+  transition: var(--ecd-transit-2);
+  background-color: rgba(250, 250, 250, 1);
+  color: var(--ecd-clr-3);
+}
+footer a:hover {
+  color: var(--ecd-clr-3);
+  transition: var(--ecd-transit-2);
+}
+footer p {
+  font-family: var(--ecd-ff-secondary);
+
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+footer li {
+  font-size: 0.9rem;
+  font-weight: 200;
+  padding-bottom: 0.1rem;
+}
+
+.footerTitle {
+  font-size: 1rem;
+  font-family: var(--ecd-ff-primary);
+}
+.socialIco {
+  font-size: 1.5rem;
+  color: rgba(250, 250, 250, 0.7);
+  padding-right: 0.4em;
+}
+footer {
+  margin-top: 4rem;
+  color: white;
+  padding-top: 1rem;
+  background-color: var(--ecd-clr-2);
+}
+
+/*<<<------------ CARD ONE --------------> */
+.cardImg {
+  width: 26rem;
+  height: 34rem;
+  object-fit: cover;
+}
+
+.btnCard {
+  font-size: 0.9rem;
+  font-family: var(--ecd-ff-secondary);
+  background-color: rgba(121, 85, 105, 0.7);
+  color: var(--ecd-clr-white);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+  border: 1.5px solid white;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btnCard:hover {
+  transition: var(--ecd-transit-2);
+  background-color: rgba(250, 250, 250, 1);
+  color: var(--ecd-clr-3);
+}
+.cardSwatchOne {
+  background-color: var(--ecd-clr-2);
+  opacity: 1;
+}
+.cardSwatchTwo {
+  background-color: var(--ecd-clr-2);
+  opacity: 1;
+}
