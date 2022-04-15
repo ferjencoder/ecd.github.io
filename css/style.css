@@ -269,6 +269,7 @@ footer {
   background-color: var(--ecd-clr-2);
 }
 
+/*<<<<------------- INDEX ----------------> */
 /*<<<------------ CARD ONE --------------> */
 .cardImg {
   width: 26rem;
@@ -303,4 +304,13 @@ footer {
 .cardSwatchTwo {
   background-color: var(--ecd-clr-2);
   opacity: 1;
+}
+
+/*<<<<-------- CONTACTO ----------------> */
+/*<<<------------ FORM -------------------> */
+.form-control {
+  border: 1px solid var(--ecd-clr-1);
+}
+.mapContacto {
+  padding-left: 0;
 }
