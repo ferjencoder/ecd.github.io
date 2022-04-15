@@ -1,0 +1,15 @@
+{
+  "name": "ecd_v0",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
+  },
+  "author": "ferJen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "keywords": [],
+  "description": ""
+}
