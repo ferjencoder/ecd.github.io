@@ -257,6 +257,11 @@ footer li {
   font-size: 1rem;
   font-family: var(--ecd-ff-primary);
 }
+.footerTitleSocial {
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-family: var(--ecd-ff-primary);
+}
 .socialIco {
   font-size: 1.5rem;
   color: rgba(250, 250, 250, 0.7);
@@ -269,10 +274,11 @@ footer {
   background-color: var(--ecd-clr-2);
 }
 
+/*<<<<------------- INDEX ----------------> */
 /*<<<------------ CARD ONE --------------> */
 .cardImg {
-  width: 26rem;
-  height: 34rem;
+  /*   width: 26rem; */
+  height: 20rem;
   object-fit: cover;
 }
 
@@ -303,4 +309,18 @@ footer {
 .cardSwatchTwo {
   background-color: var(--ecd-clr-2);
   opacity: 1;
+}
+
+/*<<<<-------- CONTACTO ----------------> */
+/*<<<------------ FORM -------------------> */
+.form-control {
+  border-bottom: 1px solid var(--ecd-clr-1);
+}
+.mapContacto {
+  padding-left: 0;
+}
+/*<<<<-------- COTIZATE ------------------> */
+/*<<<------------ FORM -------------------> */
+.btnInfo {
+  background-color: transparent;
 }
