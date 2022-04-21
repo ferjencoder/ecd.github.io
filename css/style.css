@@ -324,3 +324,24 @@ footer {
 .btnInfo {
   background-color: transparent;
 }
+/*<<<<-------- INFO ------------------> */
+/*<<<------------ FORM -------------------> */
+.accordion-body {
+  font-family: var(--ecd-ff-secondary);
+  /*   color: var(--ecd-clr-1); */
+}
+.faqTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.faqText {
+  font-size: 0.8rem;
+}
+.faqHeader {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.faqUl {
+  padding: 0;
+}
